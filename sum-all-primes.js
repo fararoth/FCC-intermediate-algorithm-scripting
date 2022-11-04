@@ -6,5 +6,5 @@ function sumPrimes(num) {
     }
     return aux
   }
-
+/*test*/
 sumPrimes(10);
