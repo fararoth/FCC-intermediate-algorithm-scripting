@@ -1,7 +1,12 @@
 function myReplace(str, before, after) {
 
     str = str.split(" ");
-
+    for(var i = 0; i<str.length; i++){
+        if(str[i] == before){
+            str[i] = after;
+        }
+    }
+    str = str.join(" ");
     return str;
   }
   
