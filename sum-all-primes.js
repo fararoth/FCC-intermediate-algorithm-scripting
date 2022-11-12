@@ -1,3 +1,5 @@
+/*function to return true or false if the number is prime*/
+
 function primeVerify(num) {
 
   if( num == 0 || num == 1 || num == 4){
