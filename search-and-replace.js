@@ -12,3 +12,5 @@ function myReplace(str, before, after) {
   
   /*debug test*/
   myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+
+/* Funciona pero no mantiene el case anterior aún*/
